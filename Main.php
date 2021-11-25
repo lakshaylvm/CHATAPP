@@ -13,7 +13,7 @@ session_start();
         <nav>
             <div class="naman">
                 <img src="./Resources/paper-plane.png" class="logo">
-                <h1>CHAT Bx</h1>
+                <h1>CHAT BOX</h1>
                 <ul class="right">
                     <li><a href="/setting.html"><img src="./Resources/images/setting.png"></a></li>
                     <li><a href="/Index.html"><img src="./Resources/images/logout%202.0.png"></a></li>                   
