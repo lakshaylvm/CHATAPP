@@ -7,7 +7,7 @@
     <link href="./Vendors/grid.css" rel='stylesheet' type='text/css'>
     <link href="./Vendors/normalize.css" rel='stylesheet' type='text/css'>
 
-    <title>ADMIN 3</title>
+    <title>ADMIN </title>
 
 </head>
 
