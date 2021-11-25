@@ -48,7 +48,7 @@
             </div>
             <div>
                     <h3>
-                        Not a member yet? <a href="./Sign_up.php" class="signup" target="_blank">Sign up</a>
+                        Not a member yet? <a href="./php/Sign_up.php" class="signup" target="_blank">Sign up</a>
                     </h3>
                     
             </div>
