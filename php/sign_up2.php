@@ -1,19 +1,14 @@
 <?php
 echo "hai";
-$localhost = "localhost";
-$username = "root";
-$password = "";
-$database = "chatbox";
+include '../include/dbcon.php';
 
-$conn = mysqli_connect('localhost','root','','chatbox');
-
-if($conn){
+if($con){
     echo "connection successful";
 }else{
     echo "No connection";
 }
 
-mysqli_select_db($conn,'chatbox');
+mysqli_select_db($con,'chatbox');
 
 $name = $_POST['name'];
 $phone = $_POST['phone'];
@@ -23,8 +18,16 @@ $password = $_POST['password'];
 $roll = $_POST['roll'];
 
 // $query = "INSERT INTO 'tbl_chat'('name','phone','email','username','password','roll') VALUES('$name','$phone','$email','$username','$password','$roll')";
-$query = "INSERT INTO `signup`(`name`, `phone`, `email`, `username`, `password`, `roll`,'countrycode') VALUES ('$name','$phone','$email','$username','$password','$roll')";
+$query = "INSERT INTO `signup` (`name`, `phone`, `email`, `username`, `password`, `rollno`, `countrycode`) VALUES ('$name', '$phone', '$email', '$username', '$password', '$roll', '+91')";
+echo $query;
+$run = $con->query($query);
 
-mysqli_query($conn,$query);
-header('location:/');
+if ($run){
+    header ('location:../Index.php');
+}
+else{
+    echo 'already registered';
+}
+
+
 ?>

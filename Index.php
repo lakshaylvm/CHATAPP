@@ -22,7 +22,7 @@
                 
             </div>
              <div class="row pup ">
-                <form method="post" action="#" class="contact-form up">
+                <form method="post" action="./php/validation.php" class="contact-form up">
                     
                      <div class="row">   
                         <div class="col span-1-of-3">
@@ -37,7 +37,7 @@
                             <label for="password">Password</label>
                         </div>
                         <div class="col span-2-of-3">
-                            <input type="password" name="name" id="name" placeholder="Password" required>
+                            <input type="password" name="password" id="name" placeholder="Password" required>
                         </div>
                     </div>
                     <div class="col span-2-of-3">

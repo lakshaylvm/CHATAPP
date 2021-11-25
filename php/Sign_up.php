@@ -11,7 +11,7 @@
                 <h2> Sign up</h2>
             </div>
             <div class="row right">
-                <form method="post" action="/sign_up2.php" class="contact-form up">
+                <form method="post" action="./sign_up2.php" class="contact-form up">
                     <div class="row">
                         <div class="col span-1-of-3">
                             <label for="name">Name</label>
@@ -41,7 +41,7 @@
                             <label for="name">UserName</label>
                         </div>
                         <div class="col span-2-of-3">
-                            <input type="name" name="name" id="username" placeholder="UserName" required>
+                            <input type="name" name="username" id="username" placeholder="UserName" required>
                         </div>
                     </div>
                     <div class="row">
@@ -49,7 +49,7 @@
                             <label for="password">Password</label>
                         </div>
                         <div class="col span-2-of-3">
-                            <input type="password" name="name" id="name" placeholder="Password" required>
+                            <input type="password" name="password" id="name" placeholder="Password" required>
                         </div>
                     </div>
                     <div class="row">
@@ -57,7 +57,7 @@
                             <label for="Roll no">Roll No</label>
                         </div>
                         <div class="col span-2-of-3">
-                            <input type="name" name="name" id="name" placeholder="Roll No" required>
+                            <input type="name" name="roll" id="name" placeholder="Roll No" required>
                         </div>
                     </div>
                     <div class="col span-2-of-3">

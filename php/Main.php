@@ -12,13 +12,9 @@ session_start();
     <body>
         <nav>
             <div class="naman">
-<<<<<<< HEAD:Main.php
-                <img src="./Resources/paper-plane.png" class="logo">
-                <h1>CHAT BO</h1>
-=======
-                <img src="../Resources/images/paperplane.png" class="logo">
+
+            <img src="../Resources/images/paperplane.png" class="logo">
                 <h1>CHAT BOX</h1>
->>>>>>> aff544e46cb49275e848cb6d032e3266967aa833:php/Main.php
                 <ul class="right">
                     <li><a href="./setting.php"><img src="../Resources/images/setting.png"></a></li>
                     <li><a href="./Index.php"><img src="../Resources/images/logout%202.0.png"></a></li>                   
@@ -39,8 +35,9 @@ session_start();
                         $message=$_POST['message'];
                         $date = date("Y/m/d");
                         $time = date("H:i:s");
-                       
-                        $query="INSERT INTO `messages` (`from`, `message`, `date`, `time`,`id`)VALUE('pinki','$message', '$date', '$time', '')";
+                        $username =  $_SESSION['username'];
+                        $query="INSERT INTO `messages` (`from`, `message`, `date`, `time`,`id`)VALUE('$username','$message', '$date', '$time', '')";
+                        
                         if ($con){
                            $run= $con->query($query);                          
                            $query="";
@@ -54,6 +51,7 @@ session_start();
                      }
                     else{
                         include "../include/fetch.php"; 
+                       
                     }
                 ?>
             <div class="recived" id='ok'>

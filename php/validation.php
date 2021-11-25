@@ -1,33 +1,25 @@
 <?php
+session_start();
+include '../include/dbcon.php';
 
-$localhost = "localhost";
-$username = "root";
-$password = "";
-$database = "chatbox";
-
-$conn = mysqli_connect('localhost','root','','chatbox');
-
-if($conn){
-    echo "connection successful";
-}else{
-    echo "No connection";
-}
-
-mysqli_select_db($conn,'chatbox');
 
 $email = $_POST['email'];
 $password = $_POST['password'];
 
-$query = "SELECT * FROM `tbl_chat` WHERE email = '$email' && password = '$password'";
-$result = mysqli_query($conn,$query);
+
+$query = "SELECT * FROM `signup` WHERE email = '$email' && password = '$password'";
+
+$result = $con->query($query);
+
+$data = $result ->  fetch_assoc();
 
 $num = mysqli_num_rows($result);
 if($num == 1){
-    $_SESSION['email']='$email';
+    $_SESSION['username']= $data['username'] ;
 
-    header('location:/php/Main.php');
+    header('location:./Main.php');
 }
 else{
-    header('location:/');
+    header('location:../Index.php');
 }
 ?>

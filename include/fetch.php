@@ -7,7 +7,7 @@
     if ($result->num_rows > 0) {
   // output data of each row
           $messages="";
-          $user="pinki";
+          $user= $_SESSION['username'];
           while($row = $result->fetch_assoc()) {
                  $data= $row["message"];
                  $time= $row["time"];
