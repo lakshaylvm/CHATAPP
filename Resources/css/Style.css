@@ -82,9 +82,6 @@ input[type=checkbox]{
     height: 0;
     visibility: hidden;
 }
-.pup{
-    
-}
 
 input[type=submit]{
     display: inline-block;
