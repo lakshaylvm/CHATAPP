@@ -1,9 +1,9 @@
 <html>
     <head>
         <title>Sign up</title>
-        <link href="./Resources/css/sign_up.css" rel="stylesheet" type="text/css">
-        <link href="Vendors/normalize.css" rel="stylesheet" type="text/css">
-        <link href="Vendors/grid.css" rel="stylesheet" type="text/css">
+        <link href="../Resources/css/sign_up.css" rel="stylesheet" type="text/css">
+        <link href="../Vendors/normalize.css" rel="stylesheet" type="text/css">
+        <link href="../Vendors/grid.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <header>
@@ -11,7 +11,7 @@
                 <h2> Sign up</h2>
             </div>
             <div class="row right">
-                <form method="post" action="#" class="contact-form up">
+                <form method="post" action="/sign_up2.php" class="contact-form up">
                     <div class="row">
                         <div class="col span-1-of-3">
                             <label for="name">Name</label>
@@ -61,7 +61,7 @@
                         </div>
                     </div>
                     <div class="col span-2-of-3">
-                            <input type="submit" value="Sign Up">
+                            <input type="submit" value="Sign Up" >
                     </div>
                 </form>
             </div>

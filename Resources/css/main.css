@@ -61,7 +61,7 @@ h1 {
 }
 
 .text-area {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.062), rgba(0, 0, 0, 0.2)), url(Resources/Infinite\ Power-1.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.062), rgba(0, 0, 0, 0.2)), url(../images/text.png);
     height: 78vh;
     width: 100%;
     background-position: center;

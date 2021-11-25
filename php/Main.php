@@ -5,18 +5,23 @@ session_start();
     <head>
         <title>Group chat</title>
         
-        <link href="./Resources/css/main.css" rel="stylesheet" type="text/css"> 
-        <link href="./vendors/grid.css" rel="stylesheet" type="text/css">
-        <link href="./vendors/normalize.css" rel="stylesheet" type="text/css">
+        <link href="../Resources/css/main.css" rel="stylesheet" type="text/css"> 
+        <link href="../Vendors/grid.css" rel="stylesheet" type="text/css">
+        <link href="../Vendors/normalize.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <nav>
             <div class="naman">
+<<<<<<< HEAD:Main.php
                 <img src="./Resources/paper-plane.png" class="logo">
                 <h1>CHAT BO</h1>
+=======
+                <img src="../Resources/images/paperplane.png" class="logo">
+                <h1>CHAT BOX</h1>
+>>>>>>> aff544e46cb49275e848cb6d032e3266967aa833:php/Main.php
                 <ul class="right">
-                    <li><a href="/setting.html"><img src="./Resources/images/setting.png"></a></li>
-                    <li><a href="/Index.html"><img src="./Resources/images/logout%202.0.png"></a></li>                   
+                    <li><a href="./setting.php"><img src="../Resources/images/setting.png"></a></li>
+                    <li><a href="./Index.php"><img src="../Resources/images/logout%202.0.png"></a></li>                   
                 </ul>
             </div>            
         </nav>
@@ -26,7 +31,7 @@ session_start();
                             </div>
             <div class="col span-6-of-7 text-area">
             <?php    
-            include_once "./include/dbcon.php";
+            include_once "../include/dbcon.php";
            
                  if(isset($_POST['submit']))
                     {  
@@ -40,7 +45,7 @@ session_start();
                            $run= $con->query($query);                          
                            $query="";
                            if ($run){
-                            include "./include/fetch.php";
+                            include "../include/fetch.php";
                            }
 
                           
@@ -48,7 +53,7 @@ session_start();
                        
                      }
                     else{
-                        include "./include/fetch.php"; 
+                        include "../include/fetch.php"; 
                     }
                 ?>
             <div class="recived" id='ok'>
@@ -82,8 +87,8 @@ session_start();
                
                 <ul class="attach">
                     
-                    <li  onclick="sendmsg()"><button type="submit" name="submit"><img src="./Resources/images/send.png"></button></li>
-                    <li><a href="#" ><img src="./Resources/images/attachments.png"></a></li>
+                    <li  onclick="sendmsg()"><button type="submit" name="submit"><img src="../Resources/images/send.png"></button></li>
+                    <li><a href="#" ><img src="../Resources/images/attachments.png"></a></li>
                 </ul>
                 </form>
             </div>
