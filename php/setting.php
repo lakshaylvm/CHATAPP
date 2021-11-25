@@ -16,7 +16,7 @@
     <div>
         <nav>
             <h1>SETTINGS</h1>
-            <a href="/Index.html"> <img src="../Resources/images/power-off.png" id="sign-out"></a>
+            <a href="../index.php"> <img src="../Resources/images/power-off.png" id="sign-out"></a>
 
         </nav>
         <div class="col span-1-of-2">
