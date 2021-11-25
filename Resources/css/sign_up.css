@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'lato', 'Ariel', 'Sans-Serif';
+    background-color: #fff;
+    color: #555;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+        
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),url(Resources/Kala-billa.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.row right{
+    float:right;
+    float:right;
+}
+.contact-form{
+    width:40%;
+    margin:10% 65%;
+}
+input[type=submit]{
+    display: inline-block;
+    padding: 10px 50px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #fff;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    margin-left: 50%;
+    margin-top: 12px;
+}   
+input[type=submit]:hover,
+input[type=submit]:active{
+    background-color:#350066;
+}
+input[type=submit]{
+    background-color: #51009B;
+    border: 1px solid #51009B;
+    margin-right: 15px;
+}
+input[type=password],
+input[type=email],
+input[type=name],
+input[type=number],
+select,
+textarea{
+    width: 70%;
+    padding: 5px;
+    border-radius: 100px;
+    
+}
+label{
+    font-size: 110%;
+    word-spacing: 1px;
+    font-weight: 400;
+    margin: 10px auto;
+    color: #51009B;
+    
+}
+h2{
+    margin:5px 0px;
+    text-align: center;
+    font-size: 190%;
+    font-weight: 400;
+    text-transform: uppercase;
+    top: 5%;
+    left: 73%;
+    position: absolute;
+}
+h2:after{
+    display: block;
+    height: 2px;
+    background-color: #51009B;
+    content:" ";
+    width: 140px;
+    margin: 0 auto;
+    margin-top: 18px;
+}

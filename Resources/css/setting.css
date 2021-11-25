@@ -1,0 +1,79 @@
+    body {
+        height: 95vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)),url(Resources/william-daigneault-olVJDJYKPSI-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    html {
+        font-family: 'lato', Arial, Helvetica, sans-serif;
+    }
+    /*****************************Navigation**********************/
+    
+    #sign-out {
+        height: 50px;
+        width: 50px;
+        display: inline-block;
+        padding: 30px;
+        float: right;
+    }
+    
+    h1 {
+        color: wheat;
+        padding-left: 30px;
+        font-weight: 300;
+        display: inline-block;
+    }
+    
+    #profile {
+        margin: 15% 20% 22% 30%;
+        height: 250px;
+        width: 250px;
+        border-radius: 200px;
+    }
+    
+    #stng {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),url(Resources/charles-deluvio-pcZvxrAyYoQ-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        height: 400px;
+        width: 450px;
+        margin-left: 105px;
+        margin-top: 20px;
+        border-radius: 100px;
+    }
+    
+    .btn {
+        border-radius: 30px;
+        border: 1px solid wheat;
+        border-color: (231, 164, 38);
+        color: rgba(0, 0, 0, 0.7);
+        text-decoration: none;
+        padding: 8px;
+        background-color: rgb(175, 130, 47);
+        color: wheat;
+    }
+    
+    .btn:hover {
+        background-color: rgb(253, 166, 5)t;
+    }
+    
+    ul {
+        margin: 28% 25% 25% 18%;
+    }
+    
+    li {
+        padding: 5px;
+    }
+    
+    li a {
+        text-decoration: none;
+        color: wheat;
+        text-decoration: black;
+        text-shadow: black 2px 2px;
+    }
+    
+    li a:hover {
+        border-bottom: 1px solid wheat;
+    }

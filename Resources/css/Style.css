@@ -1,0 +1,150 @@
+/*- --------- color  #51009B---------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'lato', 'Ariel', 'Sans-Serif';
+    background-color: #fff;
+    color: #555;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+        
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Resources/kala-background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.logo{
+    width: 12.5%; 
+    float: left;
+    border-radius: 40%;
+    margin-top: 50px;
+    margin-left: 50px;
+        
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+.login h1{
+    color: #51009b;
+    text-align: center;
+    margin-top: 0 !important;
+    margin-bottom: 20px;
+    font-size: 240%;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    position: absolute;
+    width: 1140px;
+
+}
+
+.contact-form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+input[type=password],
+input[type=email],
+select,
+textarea{
+    width: 100%;
+    padding: 7px;
+    border-radius: 100px;
+    
+}
+
+textarea{
+    height: 100px;
+}
+
+input[type=checkbox]{
+    margin: 10px 5px 10px 0;
+}
+.clearfix{zoom: 1}
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.pup{
+    
+}
+
+input[type=submit]{
+    display: inline-block;
+    padding: 10px 50px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #fff;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    margin-left: 50%;
+    margin-top: 12px;
+}   
+input[type=submit]:hover,
+input[type=submit]:active{
+    background-color:#350066;
+}
+input[type=submit]{
+    background-color: #51009B;
+    border: 1px solid #51009B;
+    margin-right: 15px;
+}
+    
+h2{
+    margin:20px 0px;
+    text-align: center;
+    font-size: 240%;
+    font-weight: 400;
+    text-transform: uppercase;
+    top: 21%;
+    left: 44%;
+    position: absolute;
+}
+h2:after{
+    display: block;
+    height: 2px;
+    background-color: #51009B;
+    content:" ";
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+.up{
+    margin-top: 16%;
+    font-size: 110%;
+
+}
+h3{
+    text-align: center;
+    font-size: 95%;
+    margin-top: 8px;
+}
+.signup{
+    color: #51009b;
+    text-decoration: none;
+    
+}
+
+.signup:hover{
+    color: #420080;
+    border-bottom: 2px solid #420080;
+    padding-bottom: 2px;
+}
+

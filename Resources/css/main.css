@@ -1,0 +1,138 @@
+/*-----------------------------------------------navigation bar------------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(rgba(178, 22, 22, 0.5), rgba(178, 22, 22, 0.5));
+    height: 100vh;
+    width: auto;
+}
+
+.naman {
+    background-image: linear-gradient(rgba(178, 22, 22, 0.6), rgba(178, 22, 22, 0.6));
+    display: table;
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    padding: 15px;
+    height: 60px;
+}
+
+.right {
+    float: right;
+    list-style: none;
+}
+
+.right li {
+    display: inline-block;
+}
+
+.right li img {
+    height: 40px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+nav img {
+    height: 75px;
+}
+
+h1 {
+    float: left;
+    position: relative;
+    top: 0;
+    left: 39%;
+    font-family: cursive;
+}
+
+.sidebar1 {
+    border-right: 2px solid #51009b;
+}
+
+.online {
+    height: 78vh;
+    margin: 0 !important;
+    padding: 0;
+}
+
+.text-area {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.062), rgba(0, 0, 0, 0.2)), url(Resources/Infinite\ Power-1.png);
+    height: 78vh;
+    width: 100%;
+    background-position: center;
+    margin: 0 !important;
+    color: white;
+    background-size: cover;
+}
+
+input {
+    width: 80%;
+    height: 50px;
+    border: 2px solid #666;
+    outline: none;
+}
+
+input[type="text"] {
+    font-size: 130%;
+}
+
+.attach {
+    float: right;
+    list-style: none;
+    margin-right: 120px;
+}
+
+.attach li {
+    display: inline-block;
+}
+
+.attach img {
+    height: 40px;
+    padding: 5px 12px;
+}
+
+.send {
+    margin: 0 !important;
+}
+
+.recived,
+.sent {
+    color: #fff;
+    font-weight: 400;
+    font-size: 130%;
+    max-width: 55%;
+}
+
+.recived {
+    float: left;
+    padding: 0 12px;
+    background-image: linear-gradient(rgba(212, 9, 9, 0.801), rgba(212, 9, 9, 0.801));
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.sent {
+    float: right;
+    background-image: linear-gradient(rgba(25, 25, 25, 0.84), rgba(25, 25, 25, 0.9));
+    padding: 0 12px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+.datediv {
+    font-size: 55%;
+    align-items: right;
+    float: right;
+}
