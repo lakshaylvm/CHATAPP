@@ -1,11 +1,20 @@
 
 var msgBody=document.getElementById('msgBody')
+var  msgElement=document.getElementById('msg')
+msgElement.addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+      // code for enter
+      sendmsg()
+    }
+});
 
 var user = window.location.search;
+
 function sendmsg(){
-  var  msgElement=document.getElementById('msg')
+ 
       msg =msgElement.value
       console.log("messege send "+ msg)
+
 //   var date=document.getElementById('date')
 //   var  sendMsg=document.getElementsByClassName('sent')
 
@@ -61,4 +70,4 @@ function onloadData(user){
     xhttp.open("GET", "../include/fetch.php"+user, true);
     xhttp.send();
 }
-setInterval(onloadData, 1000,user)
+setInterval(onloadData, 5000,user)
