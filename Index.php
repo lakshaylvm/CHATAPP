@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>ChatBox</title>
+        <title>ChatApp</title>
         <link href="./Resources/css/Style.css" rel="stylesheet" type="text/css"> 
         <link href="./Vendors/grid.css" rel="stylesheet" type="text/css">
         <link href="./Vendors/normalize.css" rel="stylesheet" type="text/css">
