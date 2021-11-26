@@ -1,13 +1,14 @@
 
 <?php
- 
+
+  include_once('../include/dbcon.php');
     $sql = "SELECT * FROM messages";
     $result = $con->query($sql);
 
     if ($result->num_rows > 0) {
   // output data of each row
           $messages="";
-          $user= $_SESSION['username'];
+          $user= $_GET['user'];
           while($row = $result->fetch_assoc()) {
                  $data= $row["message"];
                  $time= $row["time"];
@@ -30,7 +31,7 @@
                                                   <div class="datediv">
                                                     <p class="date"><span>'.$time.'</span></p>
                                                   </div>
-                                             </div>' ;   
+                                             </div>' ; 
   }
   
   }

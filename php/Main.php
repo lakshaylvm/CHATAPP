@@ -1,6 +1,3 @@
-<?php
-session_start();
-?>
 <html>
     <head>
         <title>Group chat</title>
@@ -25,35 +22,8 @@ session_start();
             <div class="col span-1-of-7 online">
                 online
                             </div>
-            <div class="col span-6-of-7 text-area">
-            <?php    
-            include_once "../include/dbcon.php";
-           
-                 if(isset($_POST['submit']))
-                    {  
-                        date_default_timezone_set("Asia/Calcutta");
-                        $message=$_POST['message'];
-                        $date = date("Y/m/d");
-                        $time = date("H:i:s");
-                        $username =  $_SESSION['username'];
-                        $query="INSERT INTO `messages` (`from`, `message`, `date`, `time`,`id`)VALUE('$username','$message', '$date', '$time', '')";
-                        
-                        if ($con){
-                           $run= $con->query($query);                          
-                           $query="";
-                           if ($run){
-                            include "../include/fetch.php";
-                           }
-
-                          
-                        }
-                       
-                     }
-                    else{
-                        include "../include/fetch.php"; 
-                       
-                    }
-                ?>
+            <div class="col span-6-of-7 text-area" id="msgBody">
+            
             <div class="recived" id='ok'>
                 <div class="recivemsgArea">
                 </div> 
@@ -63,7 +33,7 @@ session_start();
                 </div>
                 
             </div>
-            <div class="sent">
+            <div class="sent" id="sent">
            
                 
                 <div class="totalMsgbody">
@@ -79,18 +49,18 @@ session_start();
         <footer>
             <div class="col span-1-of-7"></div>
             <div class="col span-6-of-7 send">
-            <form action="./Main.php" method='post'>
+            <form action="#" method='post'>
             <input type="text" id="msg" name="message" placeholder="Type a message">    
          
                
                 <ul class="attach">
                     
-                    <li  onclick="sendmsg()"><button type="submit" name="submit"><img src="../Resources/images/send.png"></button></li>
+                    <li  onclick="sendmsg()"><button type="button" name="submit"><img src="../Resources/images/send.png"></button></li>
                     <li><a href="#" ><img src="../Resources/images/attachments.png"></a></li>
                 </ul>
                 </form>
             </div>
         </footer>
-        <!--<script src="./js/main.js"> </script>-->
+        <script src="../js/main.js"> </script>
     </body>
 </html>
