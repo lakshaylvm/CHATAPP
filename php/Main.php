@@ -14,14 +14,14 @@
                 <h1>CHAT BOX</h1>
                 <ul class="right">
                     <li><a href="./setting.php"><img src="../Resources/images/setting.png"></a></li>
-                    <li><a href="./Index.php"><img src="../Resources/images/logout%202.0.png"></a></li>                   
+                    <li><a href="../Index.php"><img src="../Resources/images/logout%202.0.png"></a></li>                   
                 </ul>
             </div>            
         </nav>
         <div>
             <div class="col span-1-of-7 online">
                 online
-                            </div>
+             </div>
             <div class="col span-6-of-7 text-area" id="msgBody">
             
             <div class="recived" id='ok'>
