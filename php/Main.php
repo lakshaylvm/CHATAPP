@@ -49,8 +49,8 @@
         <footer>
             <div class="col span-1-of-7"></div>
             <div class="col span-6-of-7 send">
-            <form action="#" method='post'>
-            <input type="text" id="msg" name="message" placeholder="Type a message">    
+            
+            <input type="text" id="msg" name="message" autocomplete="off" placeholder="Type a message">    
          
                
                 <ul class="attach">
@@ -58,7 +58,7 @@
                     <li  onclick="sendmsg()"><button type="button" name="submit"><img src="../Resources/images/send.png"></button></li>
                     <li><a href="#" ><img src="../Resources/images/attachments.png"></a></li>
                 </ul>
-                </form>
+               
             </div>
         </footer>
         <script src="../js/main.js"> </script>

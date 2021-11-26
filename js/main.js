@@ -1,16 +1,27 @@
 
 var msgBody=document.getElementById('msgBody')
+var  msgElement=document.getElementById('msg')
+msgElement.addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+      // code for enter
+      sendmsg()
+    }
+});
 
 var user = window.location.search;
+
 function sendmsg(){
-  var  msg=document.getElementById('msg')
-      msg =msg.value
+ 
+      msg =msgElement.value
       console.log("messege send "+ msg)
+
 //   var date=document.getElementById('date')
 //   var  sendMsg=document.getElementsByClassName('sent')
 
    // createMsg(msg,"time")
    getMethod(msg)
+
+   msgElement.value=""
         
 }
 function createMsg(msgshow,time){

@@ -1,6 +1,5 @@
 body {
-    height: 95vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)),url(Resources/william-daigneault-olVJDJYKPSI-unsplash.jpg);
+    height: 100vh;
     background-size: cover;
     background-position: center;
 }
@@ -35,7 +34,6 @@ h1 {
 }
 
 #stng {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),url(Resources/charles-deluvio-pcZvxrAyYoQ-unsplash.jpg);
     background-size: cover;
     background-position: center;
     text-align: center;
