@@ -50,7 +50,7 @@
             <div class="col span-1-of-7"></div>
             <div class="col span-6-of-7 send">
             <form action="#" method='post'>
-            <input type="text" id="msg" name="message" placeholder="Type a message">    
+            <input type="text" id="msg" name="message" autocomplete="off" placeholder="Type a message">    
          
                
                 <ul class="attach">

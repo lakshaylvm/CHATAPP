@@ -3,14 +3,16 @@ var msgBody=document.getElementById('msgBody')
 
 var user = window.location.search;
 function sendmsg(){
-  var  msg=document.getElementById('msg')
-      msg =msg.value
+  var  msgElement=document.getElementById('msg')
+      msg =msgElement.value
       console.log("messege send "+ msg)
 //   var date=document.getElementById('date')
 //   var  sendMsg=document.getElementsByClassName('sent')
 
    // createMsg(msg,"time")
    getMethod(msg)
+
+   msgElement.value=""
         
 }
 function createMsg(msgshow,time){
