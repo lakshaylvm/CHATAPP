@@ -70,4 +70,4 @@ function onloadData(user){
     xhttp.open("GET", "../include/fetch.php"+user, true);
     xhttp.send();
 }
-setInterval(onloadData, 5000,user)
+setInterval(onloadData, 1000,user)
