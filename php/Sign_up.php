@@ -11,7 +11,7 @@
                 <h2> Sign up</h2>
             </div>
             <div class="row right">
-                <form method="post" action="./sign_up2.php" class="contact-form up">
+                <form method="post" action="./registration.php" class="contact-form up">
                     <div class="row">
                         <div class="col span-1-of-3">
                             <label for="name">Name</label>

@@ -7,6 +7,7 @@
         <link href="../Vendors/normalize.css" rel="stylesheet" type="text/css">
     </head>
     <body>
+        <!------------------------------navigation-------------------------------->
         <nav>
             <div class="naman">
 
@@ -18,6 +19,7 @@
                 </ul>
             </div>            
         </nav>
+ <!---------------------------------------------text-area----------------------------------------------->
         <div>
             <div class="col span-1-of-7 online">
                 online
@@ -46,6 +48,7 @@
                 
             </div>        
         </div>
+        <!----------------------------------footer---------------------------------------->
         <footer>
             <div class="col span-1-of-7"></div>
             <div class="col span-6-of-7 send">
