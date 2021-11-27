@@ -16,9 +16,6 @@ body {
     display: flex;
     width: 100%;
 }
-.naman div{
-    
-}
 .left{
     flex: 40%;
 }
