@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Group chat</title>
+        <title>Chat Room</title>
         
         <link href="../Resources/css/main.css" rel="stylesheet" type="text/css"> 
         <link href="../Vendors/grid.css" rel="stylesheet" type="text/css">
