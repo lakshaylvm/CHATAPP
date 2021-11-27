@@ -63,17 +63,14 @@
                 <ul class="attach">
                     
                     <li  onclick="sendmsg()"><button type="button" name="submit"><img src="../Resources/images/send.png"></button></li>
-<<<<<<< HEAD
                     
                 </ul>
-=======
+
                    
                
-                <li><button type="button" name="attachment"><img src="../Resources/images/attachments.png"></button></li> </ul>
+                
             </div>
->>>>>>> b016955c896bb47a89735f9ed5c04381f470f5bf
-               
-            </div>
+   </div>
         </footer>
         <script src="../js/main.js"> </script>
     </body>
