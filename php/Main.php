@@ -7,22 +7,29 @@
         <link href="../Vendors/normalize.css" rel="stylesheet" type="text/css">
     </head>
     <body>
+        <!------------------------------navigation-------------------------------->
         <nav>
             <div class="naman">
-
             <div class="left"><img src="../Resources/images/paperplane.png" class="logo clear"></div>
             <div class="mid"><h1>CHAT BOX</h1></div>
             <div><ul class="right">
                     <li><a href="./setting.php"><img src="../Resources/images/setting.png" class="img"></a></li>
                     <li><a href="./Index.php"><img src="../Resources/images/logout%202.0.png" class="img"></a></li>                   
+
+            <img src="../Resources/images/paperplane.png" class="logo">
+                <h1>CHAT BOX</h1>
+                <ul class="right">
+                    <li><a href="./setting.php"><img src="../Resources/images/setting.png"></a></li>
+                    <li><a href="../Index.php"><img src="../Resources/images/logout%202.0.png"></a></li>
                 </ul>
             </div>
             </div>            
         </nav>
+ <!---------------------------------------------text-area----------------------------------------------->
         <div>
             <div class="col span-1-of-7 online">
                 online
-                            </div>
+             </div>
             <div class="col span-6-of-7 text-area" id="msgBody">
             
             <div class="recived" id='ok'>
@@ -47,6 +54,7 @@
                 
             </div>        
         </div>
+        <!----------------------------------footer---------------------------------------->
         <footer>
             <div class="col span-1-of-7"></div>
             <div class="col span-6-of-7 send">

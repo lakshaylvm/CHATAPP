@@ -1,18 +1,18 @@
 <html>
     <head>
-        <title>ChatBox</title>
+        <title>ChatApp</title>
         <link href="./Resources/css/Style.css" rel="stylesheet" type="text/css"> 
         <link href="./Vendors/grid.css" rel="stylesheet" type="text/css">
         <link href="./Vendors/normalize.css" rel="stylesheet" type="text/css">
     </head>
     
     <body>
-        
+    <!---------------------------------navigation------------------------------------->
         <header>
             <div>
              <img class="logo clearfix" src="./Resources/images/Screenshot%202021-10-26%20205153.png">
         </div>
-       
+     <!-------------------------------login form------------------------------------>  
             <div class="pp">
             <div class="row">
             <div class="login col span-1-of-3">
@@ -46,6 +46,7 @@
                 </form>
             </div>
             </div>
+        <!-------------------------------not a member--------------->
             <div>
                     <h3>
                         Not a member yet? <a href="./php/Sign_up.php" class="signup" target="_blank">Sign up</a>

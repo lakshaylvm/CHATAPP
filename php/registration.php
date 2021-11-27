@@ -1,12 +1,12 @@
 <?php
-echo "hai";
-include '../include/dbcon.php';
 
+include '../include/dbcon.php';
+/*
 if($con){
     echo "connection successful";
 }else{
     echo "No connection";
-}
+}*/
 
 mysqli_select_db($con,'chatbox');
 
@@ -19,15 +19,21 @@ $roll = $_POST['roll'];
 
 // $query = "INSERT INTO 'tbl_chat'('name','phone','email','username','password','roll') VALUES('$name','$phone','$email','$username','$password','$roll')";
 $query = "INSERT INTO `signup` (`name`, `phone`, `email`, `username`, `password`, `rollno`, `countrycode`) VALUES ('$name', '$phone', '$email', '$username', '$password', '$roll', '+91')";
-echo $query;
+
 $run = $con->query($query);
 
 if ($run){
-    header ('location:../Index.php');
+    
+    echo'<script>    
+    alert("Registration Successfully");
+    location.replace("../Index.php");
+    </script>';    
 }
 else{
-    echo 'already registered';
+
+      echo'<script>    
+     alert("Already Registered");
+     location.replace("../php/Sign_up.php");
+     </script>';
 }
-
-
 ?>
