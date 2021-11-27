@@ -16,6 +16,7 @@ body {
     display: flex;
     width: 100%;
 }
+
 .left{
     flex: 40%;
 }
@@ -63,10 +64,6 @@ h1 {
     
 }
 
-.sidebar1 {
-    border-right: 2px solid #51009b;
-}
-
 .online {
     height: 78vh;
     margin: 0 !important;
@@ -85,7 +82,7 @@ h1 {
 }
 
 input {
-    width: 80%;
+    width: 95%;
     height: 50px;
     border: 2px solid #666;
     outline: none;
@@ -97,18 +94,27 @@ input[type="text"] {
 
 
 .attach {
-    float: right;
+    position: relative;
+    bottom: 0;
+    right: 0px;
     list-style: none;
-    margin-right: 120px;
+    float: right;
+    margin: 0;
+    padding: 0;
+    
 }
 
 .attach li {
     display: inline-block;
+    margin: 0;
+    padding: 0;
 }
+
 
 .attach img {
     height: 40px;
-    padding: 5px 12px;
+    padding: 3px 10px;
+    
 }
 
 .send {

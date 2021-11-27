@@ -57,11 +57,11 @@
             <input type="text" id="msg" name="message" autocomplete="off" placeholder="Type a message">    
          
                
-                <div><ul class="attach">
+                <ul class="attach">
                     
                     <li  onclick="sendmsg()"><button type="button" name="submit"><img src="../Resources/images/send.png"></button></li>
-                    <li><a href="#" ><img src="../Resources/images/attachments.png"></a></li>
-                </ul></div>
+                    
+                </ul>
                
             </div>
         </footer>

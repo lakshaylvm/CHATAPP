@@ -41,8 +41,6 @@ function createMsg(msgshow,time){
     continer.append(sentMsg)
     continer.append(dateDiv)
 sendMsg[0].append( continer)
-
-
 }
 
 function getMethod(message){
