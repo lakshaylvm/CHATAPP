@@ -10,12 +10,13 @@
         <nav>
             <div class="naman">
 
-            <img src="../Resources/images/paperplane.png" class="logo">
-                <h1>CHAT BOX</h1>
-                <ul class="right">
-                    <li><a href="./setting.php"><img src="../Resources/images/setting.png"></a></li>
-                    <li><a href="./Index.php"><img src="../Resources/images/logout%202.0.png"></a></li>                   
+            <div class="left"><img src="../Resources/images/paperplane.png" class="logo clear"></div>
+            <div class="mid"><h1>CHAT BOX</h1></div>
+            <div><ul class="right">
+                    <li><a href="./setting.php"><img src="../Resources/images/setting.png" class="img"></a></li>
+                    <li><a href="./Index.php"><img src="../Resources/images/logout%202.0.png" class="img"></a></li>                   
                 </ul>
+            </div>
             </div>            
         </nav>
         <div>
@@ -53,11 +54,11 @@
             <input type="text" id="msg" name="message" autocomplete="off" placeholder="Type a message">    
          
                
-                <ul class="attach">
+                <div><ul class="attach">
                     
                     <li  onclick="sendmsg()"><button type="button" name="submit"><img src="../Resources/images/send.png"></button></li>
                     <li><a href="#" ><img src="../Resources/images/attachments.png"></a></li>
-                </ul>
+                </ul></div>
                
             </div>
         </footer>

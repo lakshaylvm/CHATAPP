@@ -13,22 +13,35 @@ body {
 
 .naman {
     background-image: linear-gradient(rgba(178, 22, 22, 0.6), rgba(178, 22, 22, 0.6));
-    display: table;
+    display: flex;
     width: 100%;
 }
+.naman div{
+    
+}
+.left{
+    flex: 40%;
+}
+.mid{
+    flex: 40%;
+}
+
+
 
 .logo {
-    float: left;
     padding: 15px;
     height: 60px;
 }
-
-.right {
-    float: right;
-    list-style: none;
+.clear{
+    clear: both;
 }
 
-.right li {
+/* .right {
+    float: right;
+    list-style: none;
+} */
+
+.right li{
     display: inline-block;
 }
 
@@ -36,18 +49,21 @@ body {
     height: 40px;
     padding: 10px;
     margin-top: 5px;
+} 
+.right{
+    list-style: none;
+}
+.img{
+    
+    list-style: none;
+    height: 70px;
+
 }
 
-nav img {
-    height: 75px;
-}
 
 h1 {
-    float: left;
-    position: relative;
-    top: 0;
-    left: 39%;
     font-family: cursive;
+    
 }
 
 .sidebar1 {
@@ -82,6 +98,7 @@ input[type="text"] {
     font-size: 130%;
 }
 
+
 .attach {
     float: right;
     list-style: none;
@@ -99,6 +116,7 @@ input[type="text"] {
 
 .send {
     margin: 0 !important;
+    display: flex;
 }
 
 .recived,
