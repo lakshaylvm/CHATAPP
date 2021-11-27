@@ -7,11 +7,14 @@
         <link href="../Vendors/normalize.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <!------------------------------navigation-------------------------------->
+        <!------------------------------navigation----------------------------------------->
         <nav>
             <div class="naman">
+                <!-------------left-------->
             <div class="left"><img src="../Resources/images/paperplane.png" class="logo clear"></div>
+                 <!------------Mid-------->
             <div class="mid"><h1>CHAT BOX</h1></div>
+                <!-----------right--------->
             <div><ul class="right">
                     <li><a href="./setting.php"><img src="../Resources/images/setting.png" class="img"></a></li>
                     <li><a href="./Index.php"><img src="../Resources/images/logout%202.0.png" class="img"></a></li>                   
