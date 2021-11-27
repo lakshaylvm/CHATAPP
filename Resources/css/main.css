@@ -1,5 +1,3 @@
-/*-----------------------------------------------navigation bar------------------------------------------------*/
-
 * {
     margin: 0;
     padding: 0;
@@ -10,30 +8,36 @@ body {
     height: 100vh;
     width: auto;
 }
-
+/*--------------------------------navigation bar------------------------------------------------*/
 .naman {
     background-image: linear-gradient(rgba(178, 22, 22, 0.6), rgba(178, 22, 22, 0.6));
     display: flex;
     width: 100%;
 }
+<<<<<<< HEAD
 
+=======
+           /*------------------------left---------------------------*/
+>>>>>>> b016955c896bb47a89735f9ed5c04381f470f5bf
 .left{
     flex: 40%;
-}
-.mid{
-    flex: 40%;
-}
-
-
-
-.logo {
-    padding: 15px;
-    height: 60px;
 }
 .clear{
     clear: both;
 }
-
+.logo {
+    padding: 15px;
+    height: 60px;
+}
+            /*------------------------mid---------------------------*/
+.mid{
+    flex: 40%;
+}
+h1 {
+    font-family: cursive;
+    
+}
+            /*------------------------right---------------------------*/
 /* .right {
     float: right;
     list-style: none;
@@ -57,6 +61,7 @@ body {
     height: 70px;
 
 }
+<<<<<<< HEAD
 
 
 h1 {
@@ -64,6 +69,9 @@ h1 {
     
 }
 
+=======
+/*--------------------------------------textarea-------------------------*/
+>>>>>>> b016955c896bb47a89735f9ed5c04381f470f5bf
 .online {
     height: 78vh;
     margin: 0 !important;
@@ -91,7 +99,7 @@ input {
 input[type="text"] {
     font-size: 130%;
 }
-
+/*-----------------------------------footer--------------------------*/
 
 .attach {
     position: relative;
@@ -116,7 +124,7 @@ input[type="text"] {
     padding: 3px 10px;
     
 }
-
+ /*-------------------------------------------------msg display-----------------------------*/
 .send {
     margin: 0 !important;
     display: flex;

@@ -1,17 +1,20 @@
 <html>
     <head>
-        <title>Group chat</title>
+        <title>Chat Room</title>
         
         <link href="../Resources/css/main.css" rel="stylesheet" type="text/css"> 
         <link href="../Vendors/grid.css" rel="stylesheet" type="text/css">
         <link href="../Vendors/normalize.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <!------------------------------navigation-------------------------------->
+        <!------------------------------navigation----------------------------------------->
         <nav>
             <div class="naman">
+                <!-------------left-------->
             <div class="left"><img src="../Resources/images/paperplane.png" class="logo clear"></div>
+                 <!------------Mid-------->
             <div class="mid"><h1>CHAT BOX</h1></div>
+                <!-----------right--------->
             <div><ul class="right">
                     <li><a href="./setting.php"><img src="../Resources/images/setting.png" class="img"></a></li>
                     <li><a href="./Index.php"><img src="../Resources/images/logout%202.0.png" class="img"></a></li>                   
@@ -60,8 +63,15 @@
                 <ul class="attach">
                     
                     <li  onclick="sendmsg()"><button type="button" name="submit"><img src="../Resources/images/send.png"></button></li>
+<<<<<<< HEAD
                     
                 </ul>
+=======
+                   
+               
+                <li><button type="button" name="attachment"><img src="../Resources/images/attachments.png"></button></li> </ul>
+            </div>
+>>>>>>> b016955c896bb47a89735f9ed5c04381f470f5bf
                
             </div>
         </footer>
