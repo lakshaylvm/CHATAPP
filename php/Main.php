@@ -60,8 +60,10 @@
                 <div><ul class="attach">
                     
                     <li  onclick="sendmsg()"><button type="button" name="submit"><img src="../Resources/images/send.png"></button></li>
-                    <li><a href="#" ><img src="../Resources/images/attachments.png"></a></li>
-                </ul></div>
+                   
+               
+                <li><button type="button" name="attachment"><img src="../Resources/images/attachments.png"></button></li> </ul>
+            </div>
                
             </div>
         </footer>
