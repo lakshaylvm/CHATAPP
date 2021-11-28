@@ -25,14 +25,21 @@ h1 {
     font-weight: 300;
     display: inline-block;
 }
-
+/*--------------------------------group icon---------------------------*/
 #profile {
     margin: 15% 20% 22% 30%;
     height: 250px;
     width: 250px;
     border-radius: 200px;
+    transform: scale(1.1);
+    opacity: 0.69;
+    transition: transform 1.2s, opacity 0.5s;
 }
-
+#profile:hover{
+    transform: scale(1.03);
+    opacity: 1;
+}
+/*--------------------------------option---------------------------------*/
 #stng {
     background-size: cover;
     background-position: center;
@@ -40,7 +47,7 @@ h1 {
     height: 400px;
     width: 450px;
     margin-left: 105px;
-    margin-top: 20px;
+    margin-top: 40px;
     border-radius: 100px;
 }
 

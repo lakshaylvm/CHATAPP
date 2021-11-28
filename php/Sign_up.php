@@ -8,9 +8,11 @@
     <body>
         <header>
             <div>
+                <!--------------------sign-up------------------->
                 <h2> Sign up</h2>
             </div>
             <div class="row right">
+                <!------------------form fill up -------------------->
                 <form method="post" action="./registration.php" class="contact-form up">
                     <div class="row">
                         <div class="col span-1-of-3">
@@ -60,6 +62,7 @@
                             <input type="name" name="roll" id="name" autocomplete="off" placeholder="Roll No" required>
                         </div>
                     </div>
+                    <!------------------submit----------------->
                     <div class="col span-2-of-3">
                             <input type="submit" value="Sign Up" >
                     </div>

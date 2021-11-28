@@ -17,21 +17,28 @@
         padding: 30px;
         float: right;
     }
-    
+      /*------------------------setting-----------------------------*/
     h1 {
         color: wheat;
         padding-left: 30px;
         font-weight: 300;
         display: inline-block;
     }
-    
+    /*---------------------------profile pic---------------------*/
     #profile {
         margin: 15% 20% 22% 30%;
         height: 250px;
         width: 250px;
         border-radius: 200px;
+        transform: scale(1.1);
+        opacity: 0.69;
+        transition: transform 1.2s, opacity 0.5s;
     }
-    
+    #profile:hover{
+        transform: scale(1.03);
+        opacity: 1;
+    }
+    /*----------------------------options-----------------------*/
     #stng {
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),url(../images/charles-deluvio-pcZvxrAyYoQ-unsplash.jpg);
         background-size: cover;
