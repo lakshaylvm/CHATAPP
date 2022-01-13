@@ -16,7 +16,7 @@ html {
 }
 
 header{
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/kala-background.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/login-background.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -35,26 +35,16 @@ header{
 .row{
     max-width: 1140px;
     margin: 0 auto;
+    z-index: 10;
     
 }
-.login h1{
-    color: #51009b;
-    text-align: center;
-    margin-top: 0 !important;
-    margin-bottom: 20px;
-    font-size: 240%;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    word-spacing: 4px;
-    position: absolute;
-    width: 1140px;
 
-}
 
 .contact-form{
     width: 50%;
     margin: 0 auto;
+    margin-top: 16%;
+    font-size: 110%;
 }
 
 input[type=password],
@@ -74,14 +64,7 @@ textarea{
 input[type=checkbox]{
     margin: 10px 5px 10px 0;
 }
-.clearfix{zoom: 1}
-.clearfix:after {
-    content: ".";
-    clear: both;
-    display: block;
-    height: 0;
-    visibility: hidden;
-}
+
 
 input[type=submit]{
     display: inline-block;
@@ -123,11 +106,6 @@ h2:after{
     margin: 0 auto;
     margin-top: 18px;
 }
-.up{
-    margin-top: 16%;
-    font-size: 110%;
-
-}
 h3{
     text-align: center;
     font-size: 95%;
@@ -144,4 +122,3 @@ h3{
     border-bottom: 2px solid #420080;
     padding-bottom: 2px;
 }
-

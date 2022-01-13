@@ -17,7 +17,7 @@
                 <!-----------right--------->
             <div><ul class="right">
                     <li><a href="./setting.php"><img src="../Resources/images/setting.png" class="img"></a></li>
-                    <li><a href="./Index.php"><img src="../Resources/images/logout%202.0.png" class="img"></a></li>                   
+                    <li><a href="../Index.php"><img src="../Resources/images/logout%202.0.png" class="img"></a></li>                   
 
             </ul>
             </div>

@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>ChatApp</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="./Resources/css/Style.css" rel="stylesheet" type="text/css"> 
         <link href="./Vendors/grid.css" rel="stylesheet" type="text/css">
         <link href="./Vendors/normalize.css" rel="stylesheet" type="text/css">
@@ -10,18 +11,18 @@
     <!---------------------------------navigation------------------------------------->
         <header>
             <div>
-             <img class="logo clearfix" src="./Resources/images/Screenshot%202021-10-26%20205153.png">
+             <img class="logo clearfix" src="./Resources/images/logo.png">
         </div>
      <!-------------------------------login form------------------------------------>  
-            <div class="pp">
+            <div>
             <div class="row">
-            <div class="login col span-1-of-3">
+            <div class="col span-1-of-3">
                 <h2>Log in</h2>
                 
             </div>
                 
             </div>
-             <div class="row pup ">
+             <div class="row">
                 <form method="post" action="./php/validation.php" class="contact-form up">
                     
                      <div class="row">   
@@ -43,6 +44,7 @@
                     <div class="col span-2-of-3">
                             <input type="submit" value="Log In">
                     </div>
+                    
                 </form>
             </div>
             </div>
