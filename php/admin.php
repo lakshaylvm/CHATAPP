@@ -13,14 +13,18 @@
 
 <body style = "background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)),url(../Resources/images/william-daigneault-olVJDJYKPSI-unsplash.jpg);">
     <div>
+        <!--------------------navigation------------------------->
         <nav>
             <h1>ADMIN</h1>
-            <a href="#"> <img src="../Resources/images/power-off.png" id="sign-out"></a>
+            <!------------------signout------------------>
+            <a href="../Index.php"> <img src="../Resources/images/power-off.png" id="sign-out"></a>
 
         </nav>
+        <!----------------------group-icon--------------------------->
         <div class="col span-1-of-2">
             <img src="../Resources/images/grp.jpg" id="profile">
         </div>
+        <!---------------options-------------------------->
         <div class="col span-1-of-2" id="stng" style = 'background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),url(../Resources/images/charles-deluvio-pcZvxrAyYoQ-unsplash.jpg);'>
             <ul>
                 <li><a href="#">Add Participant</a></li>

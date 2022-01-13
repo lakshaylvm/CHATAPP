@@ -14,14 +14,19 @@
 <body>
 
     <div>
+        <!---------------navigation----------------->
         <nav>
+           <!-------------settings----> 
             <h1>SETTINGS</h1>
-            <a href="../index.php"> <img src="../Resources/images/power-off.png" id="sign-out"></a>
+            <!-----------------signout-->
+            <a href="../index.php" target="blank"> <img src="../Resources/images/power-off.png" id="sign-out"></a>
 
         </nav>
+        <!--------------------profile pic-------------->
         <div class="col span-1-of-2">
             <img src="../Resources/images/profile.jpg" id="profile">
         </div>
+        <!-------------------------options--------------------->
         <div class="col span-1-of-2" id="stng">
             <ul>
                 <li><a href="#">Update Profile</a></li>

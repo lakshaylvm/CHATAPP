@@ -13,7 +13,7 @@ html {
     text-rendering: optimizeLegibility;
         
 }
-
+/**-----------------------------header------------------*/
 header{
     background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),url("../images/Kala-billa.jpg");
     height: 100vh;
@@ -21,6 +21,27 @@ header{
     background-position: center;
     background-attachment: fixed;
 }
+
+h2{
+    margin:5px 0px;
+    text-align: center;
+    font-size: 190%;
+    font-weight: 400;
+    text-transform: uppercase;
+    top: 5%;
+    left: 73%;
+    position: absolute;
+}
+h2:after{
+    display: block;
+    height: 2px;
+    background-color: #51009B;
+    content:" ";
+    width: 140px;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+/*----------------------------form fill up------------------------*/
 .row right{
     float:right;
     float:right;
@@ -67,23 +88,4 @@ label{
     margin: 10px auto;
     color: #51009B;
     
-}
-h2{
-    margin:5px 0px;
-    text-align: center;
-    font-size: 190%;
-    font-weight: 400;
-    text-transform: uppercase;
-    top: 5%;
-    left: 73%;
-    position: absolute;
-}
-h2:after{
-    display: block;
-    height: 2px;
-    background-color: #51009B;
-    content:" ";
-    width: 140px;
-    margin: 0 auto;
-    margin-top: 18px;
 }

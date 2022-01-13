@@ -84,7 +84,7 @@ h1 {
 }
 
 input {
-    width: 95%;
+    width: 95.059% !important;
     height: 50px;
     border: 2px solid #666;
     outline: none;
